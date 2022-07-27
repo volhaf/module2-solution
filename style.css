@@ -1,0 +1,126 @@
+/* belgrano-regular - latin */
+@font-face {
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/belgrano-v18-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/belgrano-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/belgrano-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/belgrano-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/belgrano-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/belgrano-v18-latin-regular.svg#Belgrano') format('svg'); /* Legacy iOS */
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Belgrano;
+    font-size: 200%;
+
+}
+ 
+  .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .section {
+    border: 2px solid black;
+    width: 90%;
+    height: 270px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Belgrano;
+    background-color: #ada3a5;
+    margin-bottom: 40px;
+
+  }
+  .chicken {
+    border: 2px solid black;
+    background-color:#eda4d5;
+    width: 30%;
+    margin-left: 70%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: Belgrano;
+    font-size: 125%;
+
+  }
+  .beef {
+    border: 2px solid black;
+    background-color:#f02b4f;
+    width: 30%;
+    margin-left: 70%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Belgrano;
+    font-size: 125%;
+
+  }
+  .sushi {
+    border: 2px solid black;
+    background-color:#f7ea77;
+    width: 30%;
+    margin-left: 70%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: Belgrano;
+    font-size: 125%;
+  }
+ .text {
+    padding: 20px;
+    color: black;
+    font-family: Belgrano;
+    font-size: 100%;
+    
+
+ }
+
+@media (min-width: 992px) {
+    
+    .col-lg-4 {
+      float: left;
+      
+    }
+    .col-lg-4 {
+      width: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .col-md-6 {
+      float: left;
+      
+     
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+
+       
+    }
+    .col-md-12  {
+        width: 100%;
+    }
+
+}
+@media (max-width: 767px) {
+    
+    .col-sm-12 {
+      float: left;
+     
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
+}
